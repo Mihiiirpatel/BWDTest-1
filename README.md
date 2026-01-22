@@ -1,4 +1,4 @@
-#include<iosteam.h>
+#include<iostream>
 using namespace std;
 
 class opq{
@@ -8,7 +8,7 @@ string nam;
 
 opq(){
 no=0;
-name=" ";
+nam="";
 }
 
 void gtdat(){
@@ -25,8 +25,7 @@ cout<<no<<". "<<nam<<"\n";
 
 int main(){
 opq o1;
-o1.gtdat;
-o1.ptdat;
+o1.gtdat();
+o1.ptdat();
 return 0;
 }
-
